@@ -64,7 +64,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "X-Title": "Telegram DeepSeek Bot"
             },
             extra_body={},
-            model="deepseek/deepseek-r1-zero:free",
+            model="deepseek/deepseek-chat-v3-0324:free",
             messages=[
                 {
                     "role": "system",
